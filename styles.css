@@ -1,3 +1,8 @@
+body,html{
+  overflow: scroll;
+-webkit-overflow-scrolling: touch;
+}
+
 .hiid{
   text-align: center;
 }
@@ -77,9 +82,10 @@ margin-bottom: 2%;
 .fourth-page{
   text-align: center;
   background-color: #393e46;
-  height: 230px;
+  height: 300px;
   margin-top: 3%;
   font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 3%;
 
 }
 .progress{
@@ -88,6 +94,10 @@ margin-bottom: 2%;
   margin-left: 40%;
   text-align:center;
 
+}
+.progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
 }
 .language-ex{
   text-align: left;
@@ -120,4 +130,8 @@ margin-bottom: 2%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.linkedin-profile{
+  text-align: center;
+  margin-left:auto;
 }
