@@ -1,0 +1,26 @@
+/* Custom styles for premium Material theme */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  background: #2196f3;
+  color: white;
+  padding: 60px 0;
+}
+header .profile-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+section{
+  padding: 60px 0;
+}
+footer{
+  background: #212121;
+  color: white;
+  padding: 20px 0;
+}
+.skill-name{
+  margin-bottom: 10px;
+}
